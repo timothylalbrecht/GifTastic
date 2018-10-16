@@ -1,0 +1,35 @@
+#button-div {
+    border: 2px solid black !important;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+} 
+
+#gif-div {
+    border: 2px solid black !important;
+    padding-top: 8px;
+}
+
+#submit-div {
+    border: 2px solid black !important;
+    padding-top: 8px;
+    padding-bottom:10px;
+    margin-left: 3px;
+    margin-right: -3px;
+    
+}
+
+.hero-button {
+    margin: 5px;
+    background-color: white;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#gif-div {
+    padding-bottom: 10px;
+}
