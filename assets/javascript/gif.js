@@ -35,6 +35,7 @@ function getGifs() {
 
                 var gifDiv = $("<div>");
                 var p = $("<p>").text("Rated: " + response.data[i].rating.toUpperCase());
+                
 
                 var gifs = $("<img>");
                 gifs.attr("src", response.data[i].images.fixed_height_still.url);
@@ -46,13 +47,14 @@ function getGifs() {
 
                 gifDiv.append(p);
                 gifDiv.append(gifs);
+                
 
                 $("#gif-div").append(gifDiv);
             }
       });
     }
 
-$(".gif").on("click", function() {
+$(document).on("click", ".gif", function() {
     var state = $(this).attr("data-state");
 
     if (state === "still") {

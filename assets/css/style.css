@@ -1,17 +1,29 @@
+.jumbotron {
+    font-family: 'Anton', sans-serif;
+    color: slateblue;
+    background-image: url("../images/background.png") !important;
+}
+
+body {
+    background-image: url("../images/background.png");
+    font-family: 'Anton', sans-serif;
+}
+
 #button-div {
-    border: 2px solid black !important;
+    border: 2px solid slateblue !important;
     padding: 10px;
     margin-bottom: 10px;
     
 } 
 
 #gif-div {
-    border: 2px solid black !important;
+    border: 2px solid slateblue !important;
     padding-top: 8px;
+    float: left;
 }
 
 #submit-div {
-    border: 2px solid black !important;
+    border: 2px solid slateblue !important;
     padding-top: 8px;
     padding-bottom:10px;
     margin-left: 3px;
@@ -19,17 +31,38 @@
     
 }
 
+#add-superhero {
+    margin-top: 10px;
+    font-family: 'Anton', sans-serif;
+}
+
 .hero-button {
     margin: 5px;
     background-color: white;
+    box-shadow: 4px 6px #6a5acd;
 }
 
 p {
+    font-family: 'Anton', sans-serif;
+    color: slateblue;
+    margin-left: 328px;
     margin-bottom: 10px;
     margin-top: 10px;
-    font-weight: bold;
 }
 
 #gif-div {
     padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px solid slateblue;
+}
+
+.superhero-form {
+    font-family: 'Anton', sans-serif;
 }
